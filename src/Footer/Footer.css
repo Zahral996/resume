@@ -1,0 +1,40 @@
+.Footer{
+    width: 100%;
+    .footer-container{
+        width: 90%;
+        margin: 20px auto;
+        background-color: rgb(43, 42, 42);
+        color: #FEFAF4;
+        border-radius: 100px;
+        padding: 20px 50px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        .name{
+            width: 40%;
+            p{
+                line-height: 30px;
+                font-size: 12px;
+            }
+        }
+        .links{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            justify-content: center;
+            align-items: center;
+            .mylink{
+                all: unset;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+        .btn-link{
+            all: unset;
+            text-decoration: none;
+        }
+    }
+}

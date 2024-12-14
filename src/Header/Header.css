@@ -1,0 +1,37 @@
+.Header{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    ul{
+        all:unset ;
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px;
+        align-items: center;
+        li{
+            all: unset;
+            .links{
+                all: unset;
+                font-size: 18px;
+                font-weight: 300px;
+                color: rgb(43, 42, 42);
+                cursor: pointer;
+                &:hover{
+                    color: black;
+                }
+            }
+            .logo{
+                all: unset;
+                font-weight: 500;
+                font-size: 20px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
+    .btn-link{
+        all: unset;
+        text-decoration: none;
+    }
+}

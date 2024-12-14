@@ -1,0 +1,15 @@
+.projects{
+    width: 90%;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-weight: 500;
+    }
+    .project-container{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-auto-rows: 1fr;
+        gap: 20px;
+    }
+}
