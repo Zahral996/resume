@@ -6,8 +6,8 @@ import Home from './Home/Home';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
+import { HashRouter as Router } from 'react-router-dom';
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   Link
